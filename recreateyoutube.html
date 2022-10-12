@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Youtube.com Clone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="general.css">
+<link rel="stylesheet" href="recreateyoutubevideos.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="sidebar.css">
+
+
+</head>
+<body>
+
+
+<header class ="header">
+
+<div class = "leftsection"> 
+<img class = "hamburger-menu" src="thumbnails/hamburger-menu.svg">
+<img class = "youtube-logo" src="thumbnails/youtube-logo.svg">
+</div>
+
+<div class = "midsection">
+<input class = "searchy" type="text" placeholder="Search">   
+<button class ="searchbutton">
+<img class ="searchicon" src="thumbnails/searchme.svg">
+<div class="tooltip">Search</div>
+
+<!-- This is a comment!! When in doubt, place eveything into a Div/Nav
+for tooltip, place position absolute into position relative-->
+
+</button>
+
+<button class ="voicebutton">
+<img class="voiceicon" src="thumbnails/voice-search-icon.svg">
+<div class="tooltip">Search with Voice</div>
+</button>
+
+</div>
+
+<div class = "rightsection"> 
+<div class = uploadiconcontainer>
+<img class = "uploadicon" src="thumbnails/uploadicon.svg">
+<div class="tooltip">Create</div>   
+</div>
+
+<div class = squaresiconcontainer>
+<img class = "squaresicon" src="thumbnails/squaresicon.svg">
+<div class="tooltip">Apps</div> 
+</div>
+
+<div class = notificationiconcontainer>
+<img class = "notificationsicon" src="thumbnails/notificationsicon.svg">
+<div class="notificationcount"> 3</div>
+<div class="tooltip">Notifications</div> 
+</div>
+<div class ="mychanneliconcontainer">
+<img class = "mychannelicon" src="thumbnails/my-channel.svg">
+<div class="tooltip">User</div> 
+</div>
+
+</div>
+</header>
+
+<nav class = "sidebar">
+
+<div class ="sidebarlinks">
+<img src="thumbnails/homeside.svg">
+<div>Home</div>
+</div>
+
+<div class ="sidebarlinks">
+<img src="thumbnails/exploreside.svg">
+<div>Explore</div>
+</div>
+
+<div class ="sidebarlinks">
+<img src="thumbnails/subsside.svg">
+<div>Subscriptions</div>
+</div>
+
+<div class ="sidebarlinks">
+<img src="thumbnails/originalssides.svg">
+<div>Originals</div>
+</div>
+
+<div class ="sidebarlinks">
+<img src="thumbnails/youtubemusicsides.svg">
+<div>YouTube Music</div>
+</div>
+
+<div class ="sidebarlinks">
+<img src="thumbnails/librarysides.svg">
+<div>Library</div>
+</div>
+
+</nav>
+
+<main>
+    <section class="vidgrid">
+        <div class ="videopreview">
+            <div class ="thumbnailrow">
+                <a href="https://www.youtube.com/watch?v=zWuryokVow8" target="_blank" class="vidtitlelink">
+            <img class = "thumbnail" src="thumbnails/itsfunneh.jpg">
+                </a>
+            <div class="videotime">26:17</div>
+        </div>
+            <div class = "vidinfogrid">
+                <div class ="channelpicture">
+                    <a href="https://www.youtube.com/c/ItsFunneh" target="_blank">
+                        <img class = "icon" src="thumbnails/itsfunnehicon.jpg">
+                    </a>
+                </div>
+                <div class = "videoinfo">
+            <a href="https://www.youtube.com/watch?v=zWuryokVow8" target="_blank" class="vidtitlelink">
+               
+                <p class= "vidtitle">
+                FIRST DAY AT FAIRY HIGH SCHOOL! GETTING OUR NEW DORMS WITH TOUR!! (Roblox Roleplay) 
+            </p>
+                <a href="https://www.youtube.com/c/ItsFunneh" target="_blank" class="vidauthorlink">
+                <p class = "vidauthor">
+                ItsFunneh
+                </p>
+                </a>
+                <p class = "vidstats">
+                40,221,033 views &#183;5 years ago
+                </p>
+                </div>
+                </div>
+                </div>
+        
+        
+        <div class= "videopreview">
+        <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=LetlWc46kqQ" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/guineas.jpg">
+            </a>
+        <div class="videotime">8:34</div>
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/c/LittleAdventures" target="_blank">
+                <img class = "icon" src="thumbnails/guineaicon.svg">
+            </a>
+            </div>
+            <div class ="videoinfo">
+        <a href="https://www.youtube.com/watch?v=LetlWc46kqQ" target="_blank" class="vidtitlelink">
+        <p class = "vidtitle">
+        I Left My Guinea Pig Unsupervised & This Is What Happened
+        </p>
+        <a href="https://www.youtube.com/c/LittleAdventures" target="_blank" class="vidauthorlink">
+        <p class = "vidauthor"> Little Adventures </p>
+        </a>
+        <p class = "vidstats">
+        19M views &#183; 21 hours ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+        <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/sssniperwolf.jpg">
+    </a>
+        <div class="videotime">9:13</div>
+        </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/c/SSSniperWolf" target="_blank">
+                <img class = "icon" src="thumbnails/sssniperwolficon.jpg">
+            </a>
+            </div>
+            <div class ="videoinfo">
+        <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank" class="vidtitlelink">
+        <p class = "vidtitle">
+        Crazy Tik Toks Taken Moments Before DISASTER   
+        </p>
+        <a href=" https://www.youtube.com/c/SSSniperWolf" target="_blank" class="vidtitlelink">
+        <p class = "vidauthor">SSSniperwolf </p>
+        </a>
+        <p class = "vidstats">
+        12M views &#183; 1 years ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        <div class = "videopreview">
+            <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/math.jpg">
+        </a>
+        <div class="videotime">22:09</div>
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+        <a href="https://www.youtube.com/c/veritasium" target="_blank">
+                <img class = "icon" src="thumbnails/mathicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank" class="vidtitlelink">
+        <p class = vidtitle>
+        The Simplest Math Problem No One Can Solve - Collatz Conjecture
+        </p>
+        <p class=" vidauthor">
+        Veritasium
+        </p>
+        </a>
+        <p class = vidstats>
+        18M views &#183; 4 months ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        <div class = "videopreview">
+            <div class = "thumbnailrow">
+                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/kadande.jpg">
+                </a>
+        <div class="videotime">11:17</div>
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/c/veritasium" target="_blank">
+                <img class = "icon" src="thumbnails/kadandeicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank" class="vidtitlelink">
+        <p class = vidtitle>
+        Kadane's Algorithm to Maximum Sum Subarray Problem
+        </p>
+        <p class=" vidauthor">
+        CS Dojo
+        </p>
+        </a>
+        <p class = vidstats>
+        519K views &#183; 5 years ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class = "videopreview">
+            <div class = "thumbnailrow">
+                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" target="_blank" class="video-title-link">
+        <img class = "thumbnail" src="thumbnails/mrbeast.jpg">
+        </a>
+        <div class="videotime">20:00</div>
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture"> 
+            <a href="https://www.youtube.com/user/MrBeast6000" target="_blank">
+                <img class = "icon" src="thumbnails/mrbeasticon.jpg">
+            </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" target="_blank" class="vidtitlelink">
+        <p class = vidtitle>
+        Anything You Can Fit In The Circle I'll Pay For
+        </p>
+        <p class=" vidauthor">
+        MrBeast
+        </p>
+        </a>
+        <p class = vidstats>
+        141M views &#183; 1 year ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/planes.jpg">
+        </a>
+        <div class="videotime">10:14</div>    
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/c/RealLifeLore" target="_blank">
+                <img class = "icon" src="thumbnails/planesicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+        <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y" target="_blank" class="vidtitlelink">
+        <p class = vidtitle>
+        Why Planes Don't Fly Over Tibet
+        </p>
+        <p class=" vidauthor">
+        RealLifeLore
+        </p>
+        </a>
+        <p class = vidstats>
+        6.6M views &#183; 1 year ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+        <a href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/techvision.jpg">
+        </a>
+        <div class="videotime">7:13</div>    
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" target="_blank">
+                <img class = "icon" src="thumbnails/techvisionicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank" class="vidtitlelink">
+        <p class = vidtitle>
+        Inside The World's Biggest Passenger Plane
+        </p>
+        <p class=" vidauthor">
+        Tech Vision
+        </p>
+        </a>
+        <p class = vidstats>
+        3.7M views &#183; 10 months ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc" target="_blank" class="vidtitlelink">
+        <img class = "thumbnail" src = "thumbnails/thenx.jpg">
+        </a>
+        <div class="videotime">13:18</div>
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS" target="_blank">
+                <img class = "icon" src="thumbnails/thenxicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+        <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc" target="_blank" class="vidtitlelink">      
+        <p class = vidtitle>
+        The SECRET to Super Human STRENGTH
+        </p>
+        <p class=" vidauthor">
+        ThenX
+        </p>
+        </a>
+        <p class = vidstats>
+        20M views &#183; 3 years ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o" target="_blank" class="vidtitlelink"></a>
+        <img class = "thumbnail" src = "thumbnails/cruiseship.jpg">
+        </a>
+        <div class="videotime">7:53</div>
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/user/businessinsider" target="_blank">
+                <img class = "icon" src="thumbnails/cruiseshipicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o" target="_blank" class="vidtitlelink">  
+        <p class = vidtitle>
+        How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+        </p>
+        <p class=" vidauthor">
+        Business Insider
+        </p>
+        </a>
+        <p class = vidstats>
+        14M views &#183; 1 year ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank" class="vidtitlelink"> 
+        <img class = "thumbnail" src = "thumbnails/ocean.jpg">
+            </a>
+        <div class="videotime">4:11</div>    
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <a href="https://www.youtube.com/c/Destinationtips" target="_blank">
+                <img class = "icon" src="thumbnails/oceanicon.jpg">
+                </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank" class="vidtitlelink"> 
+        <p class = vidtitle>
+        Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+        </p>
+        <p class=" vidauthor">
+         Destination Tips
+        </p>
+        </a>
+        <p class = vidstats>
+        3M views &#183; 1 year ago
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class = "videopreview">
+        <div class = "thumbnailrow">
+            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank" class="vidtitlelink"> 
+        <img class = "thumbnail" src = "thumbnails/water.jpg">
+        </a>
+        <div class="videotime">4:52</div>    
+    </div>
+        <div class = "vidinfogrid">
+            <div class = "channelpicture">
+                <div class="profile-picture-container">
+                <a href="https://www.youtube.com/teded" target="_blank">
+                <img class = "icon" src="thumbnails/watericon.jpg">
+            </a>
+            </div>
+            <div class ="videoinfo">
+                <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank" class="vidtitlelink"> 
+        <p class = vidtitle>
+        What would happen if you didn't drink water? - Mia Nacamulli
+        </p>
+        <p class=" vidauthor">
+        TED-Ed
+        </p>
+        </a>
+        <p class = vidstats>
+        12M views &#183; 5 years ago
+        </p>
+        </div>
+        </div>
+        </div>
+    </section>
+</main>
+
+
+
+    
+  </body>
+</html>
